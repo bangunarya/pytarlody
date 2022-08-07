@@ -8,4 +8,4 @@ __pycache__
 dask-worker-space
 *.lprof
 .vscode
-*.egg-info
+/src/*.egg-info
