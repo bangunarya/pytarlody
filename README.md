@@ -31,3 +31,5 @@ Str.4:-------------------
 Str.5:-------------------
 Str.6:-------------------
 ```
+## Licence
+All files are provided under the terms of the MIT License
