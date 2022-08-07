@@ -1,8 +1,8 @@
 import os
-from load_data import load_wav_data
-from time_frequency import generate_gabor, time_frequency_analysis
-from maps_to_tab import mapping_to_tablature
-from plot import plot_tf
+from pytarlody.load_data import load_wav_data
+from pytarlody.time_frequency import generate_gabor, time_frequency_analysis
+from pytarlody.maps_to_tab import mapping_to_tablature
+from pytarlody.plot import plot_tf
 
 
 def generate_tab(path: str, Bandwidth: float, Flo: float, 
@@ -51,11 +51,11 @@ def generate_tab(path: str, Bandwidth: float, Flo: float,
 
 if __name__ == '__main__':
     # Give path
-    filename = 'C-Doremi Ascending1.wav'
+    filename = 'C-Doremi Descending1.wav'
     #filename = 'Doraemon.wav'
     #filename = 'A Pentatonik Ascending1.wav'
     #filename = 'A-Pentatonik Descending1.wav'
-    dir = '/home/bangun/Documents/Academic/Bachelor Thesis -Arya 111061081/Program/TA hampir fix/Data FIx/'
+    dir = '/home/bangun/Documents/pytarlody/data'
     path = os.path.join(dir, filename)
 
     # Parameters

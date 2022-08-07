@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/pytarlody.egg-info/PKG-INFO
+src/pytarlody.egg-info/SOURCES.txt
+src/pytarlody.egg-info/dependency_links.txt
+src/pytarlody.egg-info/not-zip-safe
+src/pytarlody.egg-info/requires.txt
+src/pytarlody.egg-info/top_level.txt
