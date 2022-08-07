@@ -20,7 +20,8 @@ All the figures in the paper can be reproduced by running the notebook ```Exampl
 
 # Results
 The following figures are examples of time-frequency representation and mapping to guitar tablature.
- <img src="https://user-images.githubusercontent.com/47388866/183309550-e329cd0f-0ecf-44c5-97ef-4ccc9194ea02.png" width="200" height="150" style="float:left"/>
+
+ <img src="https://user-images.githubusercontent.com/47388866/183309550-e329cd0f-0ecf-44c5-97ef-4ccc9194ea02.png" width="300" height="250"  class="center"/>
  
 ```
 Str.1:8-7-7-7-5-3-1------
