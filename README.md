@@ -21,11 +21,13 @@ All the figures in the paper can be reproduced by running the notebook ```Exampl
 # Results
 The following figures are examples of time-frequency representation and mapping to guitar tablature.
 
+![image](https://user-images.githubusercontent.com/47388866/183309550-e329cd0f-0ecf-44c5-97ef-4ccc9194ea02.png)
 
-
+```
 Str.1:8-7-7-7-5-3-1------
 Str.2:--------------5-5-3
 Str.3:-------------------
 Str.4:-------------------
 Str.5:-------------------
 Str.6:-------------------
+```
