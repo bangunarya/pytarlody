@@ -29,7 +29,7 @@ def frequency_database():
     return database_freq
 
 
-def mapping_to_tablature(tf: np.array, order: int, Nsamples: int,
+def mapping_to_tablature(tf: np.array, order: int, 
                          freq: np.array):
     """
     A function to map from time-frequency data 
@@ -84,8 +84,6 @@ def mapping_to_tablature(tf: np.array, order: int, Nsamples: int,
         exp_logy.append(logy_max)
 
     database_freq = frequency_database()
-    b, k = database_freq.shape
-
     # For each maximum compare to database
     tablature = np.zeros((6, len(exp_logy)), dtype=np.object)
     tablature[:] = '-'
@@ -109,10 +107,10 @@ def mapping_to_tablature(tf: np.array, order: int, Nsamples: int,
     for string in range(6):
         temp_str = '-'.join(list(tablature[string])) 
         if len(temp_str) < len_max:
-            temp_str = 'Str.' + str(string + 1) + ':' + temp_str + '-'*(len_max - len(temp_str)) + '\n'
- 
+            temp_str = ('Str.' + str(string + 1) + ':' + temp_str + 
+                        '-'*(len_max - len(temp_str)) + '\n')
         else:
-            temp_str = 'Str.' + str(string + 1) + ':'+ temp_str + '\n'
+            temp_str = 'Str.' + str(string + 1) + ':' + temp_str + '\n'
         tablature_list = tablature_list + temp_str
     
     return tablature_list

@@ -1,4 +1,5 @@
 from scipy.io import wavfile
+from playsound import playsound
 
 
 def load_wav_data(path: str):
@@ -23,4 +24,8 @@ def load_wav_data(path: str):
     samplerate, data = wavfile.read(path)
 
     return samplerate, data
+
+
+def play_wav(path: str):
+    playsound(path)
 
