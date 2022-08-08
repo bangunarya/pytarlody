@@ -31,5 +31,12 @@ Str.4:-------------------
 Str.5:-------------------
 Str.6:-------------------
 ```
+
+The feature for guitar tuning is provided
+```
+Frequency for 1 string is  329.63
+Recorded frequency  326.8996177109342
+Too low! Increase the string tension
+```
 ## Licence
 All files are provided under the terms of the MIT License
