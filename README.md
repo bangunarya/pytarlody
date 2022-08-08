@@ -1,6 +1,7 @@
 # Python Implementation of Guitar Melody Detection
 This repository contains the code to map from time-frequency representation of guitar signal
-to the guitar tablature. This code is reimplementation in python from 
+to the guitar tablature. \
+This code is reimplementation in python from 
 [Arya Bangun's bachelor thesis](https://openlibrary.telkomuniversity.ac.id/pustaka/92118/deteksi-melody-pada-gitar-menggunakan-transformasi-wavelet.html
 ) in Indonesian.\
 The time-frequency representation is obtained by using Gabor Wavelet.
